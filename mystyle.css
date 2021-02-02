@@ -1,0 +1,36 @@
+a:link{
+  color: red;
+}
+a:visited{
+  color: green !important;
+}
+body {
+  font-family: 'Calibri';
+}
+h1, h2 {
+  font-family: 'courier new font';
+  color: red;}
+
+  p {
+  font-family: 'Calibri';
+}
+
+input[type="submit"]:hover {background-color: red;}
+input[type="submit"]:active{background-color: green;}
+ul{
+  list-style-type:square;
+}
+ol{
+  list-style-type: lower-roman;
+}
+nav ol li a:visited{
+  color: green;
+}
+
+tr:hover{
+  background-color: lightblue !important;
+}
+
+tr:nth-child(even){
+  background-color: lightgray;
+}
